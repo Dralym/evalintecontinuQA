@@ -46,8 +46,8 @@ public class Etudiant {
 
     public void setAnnee() {this.annee = annee;}
 
-    public int getage() {
+    public int getage() { return 2016-annee;}
 
-        Calendar cal = Calendar.getInstance(TimeZone.getDefault());
-        return cal.get(Calendar.YEAR)-annee;}
+        //Calendar cal = Calendar.getInstance(TimeZone.getDefault());
+        //return cal.get(Calendar.YEAR)-annee;}
 }
