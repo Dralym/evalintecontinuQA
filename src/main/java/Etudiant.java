@@ -1,5 +1,5 @@
-//import java.util.Calendar;
-//import java.util.TimeZone;
+import java.util.Calendar;
+import java.util.TimeZone;
 
 public class Etudiant {
 
@@ -46,8 +46,7 @@ public class Etudiant {
 
     public void setAnnee() {this.annee = annee;}
 
-    public int getage() { return 2016-annee;}
-
-        //Calendar cal = Calendar.getInstance(TimeZone.getDefault());
-        //return cal.get(Calendar.YEAR)-annee;}
+    public int getage() {
+        Calendar cal = Calendar.getInstance(TimeZone.getDefault());
+        return cal.get(Calendar.YEAR)-annee;}
 }
